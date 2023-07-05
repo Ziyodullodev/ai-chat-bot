@@ -52,7 +52,7 @@
         "Are you cash only?"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
+        "We accept VISA, Mastercard, and Paypal",
         "We accept most major credit cards, and Paypal"
       ]
     },
@@ -78,6 +78,54 @@
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Where can I find you?"
+      ],
+      "responses": [
+        "We are located at 123 Main Street, City.",
+        "Our address is 123 Main Street, City."
+      ]
+    },
+    {
+      "tag": "opening_hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When are you open?",
+        "What time do you open?"
+      ],
+      "responses": [
+        "We are open from 9 AM to 6 PM, Monday to Friday.",
+        "Our opening hours are from 9 AM to 6 PM, Monday to Friday."
+      ]
+    },
+    {
+      "tag": "discounts",
+      "patterns": [
+        "Do you offer any discounts?",
+        "Are there any special deals?",
+        "Can I get a discount?"
+      ],
+      "responses": [
+        "Yes, we offer discounts from time to time. Please check our website for the latest deals.",
+        "We have special offers and discounts available. Visit our website for more information."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "How can I track my order?",
+        "Where can I check my order status?",
+        "Is there a way to know if my order has shipped?"
+      ],
+      "responses": [
+        "You can track your order by logging into your account on our website.",
+        "To check your order status, please log in to your account on our website."
       ]
     }
   ]

@@ -1,0 +1,105 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello! How can I assist you with programming today?",
+          "Hi there! How can I help you with your programming needs?",
+          "Hey! How can I assist you with coding?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later"
+        ],
+        "responses": [
+          "Goodbye! If you have any more programming questions, feel free to ask.",
+          "Bye! Happy coding, and don't hesitate to return if you need further assistance.",
+          "See you later! Keep coding and have a great day!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "Appreciate it"
+        ],
+        "responses": [
+          "You're welcome! If you have any more questions, feel free to ask.",
+          "You're welcome! Happy to help with your programming inquiries.",
+          "No problem! If there's anything else you need assistance with, just let me know."
+        ]
+      },
+      {
+        "tag": "language_recommendation",
+        "patterns": [
+          "Which programming language should I learn?",
+          "What is the best programming language to start with?",
+          "Which language is in demand?"
+        ],
+        "responses": [
+          "The choice of programming language depends on your goals and interests. Some popular languages include Python, JavaScript, and Java. It's best to consider what you want to achieve and what type of software you want to build.",
+          "There isn't a single 'best' programming language, as it varies based on your objectives. Python is often recommended for beginners, while JavaScript is widely used for web development. Ultimately, the choice depends on your specific needs and preferences."
+        ]
+      },
+      {
+        "tag": "resources",
+        "patterns": [
+          "Can you recommend programming resources?",
+          "Where can I find good programming tutorials?",
+          "Are there any online coding courses?"
+        ],
+        "responses": [
+          "Certainly! Some popular platforms for programming resources include Udemy, Coursera, and Codecademy. Additionally, you can find numerous tutorials and documentation on websites like W3Schools, MDN Web Docs, and Stack Overflow.",
+          "Absolutely! You can explore online learning platforms like Udacity, Pluralsight, and Khan Academy. These platforms offer a wide range of programming courses and tutorials to enhance your skills."
+        ]
+      },
+      {
+        "tag": "debugging",
+        "patterns": [
+          "How do I debug my code?",
+          "What are some debugging techniques?",
+          "Can you help me with troubleshooting?"
+        ],
+        "responses": [
+          "Debugging is an essential skill in programming. Some common debugging techniques include using print statements, stepping through code with a debugger, and analyzing error messages. It can also be helpful to break down the problem into smaller parts and test each component individually.",
+          "Debugging can be challenging, but there are several techniques you can employ. These include using a debugger, reviewing error messages, and systematically narrowing down the issue. Don't hesitate to ask for help and seek guidance from fellow developers or online communities."
+        ]
+      },
+      {
+        "tag": "frameworks",
+        "patterns": [
+          "Which framework should I use?",
+          "What are some popular programming frameworks?",
+          "Can you recommend a framework for web development?"
+        ],
+        "responses": [
+          "The choice of framework depends on the programming language and the specific requirements of your project. For web development, popular frameworks include React.js for front-end development, Django for Python, and Ruby on Rails for Ruby.",
+          "There are numerous popular frameworks available for different programming languages. Some notable examples include AngularJS, Laravel, and Express.js. It's important to consider the specific needs of your project and explore the features and community support of each framework."
+        ]
+      },
+      {
+        "tag": "version_control",
+        "patterns": [
+          "What is version control?",
+          "Why should I use version control?",
+          "Can you recommend a version control system?"
+        ],
+        "responses": [
+          "Version control is a system that tracks and manages changes to files and code. It allows you to collaborate with others, revert to previous versions, and keep a history of changes. Git is a popular and widely used version control system, and GitHub and GitLab are common platforms for hosting Git repositories.",
+          "Version control is essential for managing code and collaborating with others. It enables you to track changes, work on different branches, and easily revert to previous versions if needed. Git is a widely adopted version control system, and platforms like GitHub provide a user-friendly interface for hosting and managing repositories."
+        ]
+      }
+    ]
+  }
+  
